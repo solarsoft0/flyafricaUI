@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+
+}
+
+body {
+background-color: #0C67FF;
+}
+
+.container {
+    width: 80%;
+    background-color: #ffffff;
+    height: 660px;
+    margin: 0 auto;
+     display: grid;
+     grid-template-columns:1fr 2fr;
+     /* grid-template-rows: [row] auto [row] auto [row]; */
+     grid-gap: 0px;
+}
+
+.screen_1 {
+    height: 660px;
+    background-color: #E2E2E2;
+
+}
+.screen_2 {
+padding: 0;
+margin: 0;
+}
+.screen_view_1 {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+background-color: #05142C;
+    background-image: url('../images/travelfrog.png');
+}
+
+.screen_view_1 h2 {
+
+  font-size: 2em;
+  font-weight: 800;
+  text-align: center;
+  padding:250px 0 30px;
+  color: white;
+  text-shadow: 2px 0px 4px #05142C;
+
+}
+
+    .screen_view_1 .table {
+        display: table;
+        margin: 0 auto;
+}
+ ul.home_button {
+    list-style: none;
+}
+
+ul.home_button li {
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    background-color: #0C67FF;
+    display:inline-block;
+    padding: 1em 2em;
+    transition: all .3s ease-in;
+        border: 3px solid #0C67FF;
+
+}
+
+ul.home_button li:hover {
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    background-color: rgba(12, 103, 255, 0.00);
+    border: 3px solid #0C67FF;
+    display: inline-block;
+    padding: 1em 2em;
+}
