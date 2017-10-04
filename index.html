@@ -5,34 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fly Africa | Home </title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
     <div class="container">
 <div class="screen_1">
-<div class="logo"><p class="logo_text">Fly.Africa</p></div>
+<div class="screen_container">
 
 
-<div class="tab_container">
+<div class="logo">
+    <p class="logo_text">Fly.Africa</p>
+</div>
+
 <div class="tab_menu">
     <ul>
-        <li>Round Trip</li>
+<li class="active">Round Trip</li>
         <li>One Way</li>
     </ul>
-
-<div class="tab tab_view_1" id="round_trip">
-    <form>
-<input class="input tab_from" type="text" name= "from" id="from">
-<input class = "input tab_to" type="text" name = "to" id="to">
-<input class = "input tab_arrive_date" name = "arriveDate" type="date" id="arriveDate">
-<input class = "input tab_depart_date" name="arriveDate" type="date" id="departDate">
-<input class ="input tab_adult" type="number" name="adult" id="adult">
-<input class ="input tab_children" type="number" name="children" id="children">
-<input class ="input tab_infant" type="number" name="infant" id="infant">
-<button class = "btn tab_button" type="submit">Search Flights</button>
-        
-    </form>
 </div>
+<div class="tab_container">
+   
+        <div class="tab tab_view_1" id="round_trip">
+            <form class ="form_grid">
+                
+                <input class="input tab_from" type="text" placeholder="Enter City/Airport" name="from" id="from">
+<input class="input tab_to" type="text" placeholder="Enter City/Airport"  name="to" id="to">
+
+<div class="form_group">
+    <i class="fa fa-calendar fa-2x  " aria-hidden="true"></i>
+                <input class="input tab_arrive_date" name="arriveDate" type="date" id="arriveDate">
+</div>
+<div class="form_group">
+<i class="fa fa-calendar fa-2x  " aria-hidden="true"></i>
+                <input class="input tab_depart_date" name="arriveDate" type="date" id="departDate">
+</div>
+                <div class="form_group">
+                    <label for="adult">Adult</label>
+<input class="input tab_adult" type="number" name="adult" id="adult">
+
+                </div>
+                <div class="form_group">
+                    <label for="children">Children</label>
+<input class="input tab_children" type="number" name="children" id="children">
+
+                </div>
+                <div class="form_group">
+                    <label for="infant">Adult</label>
+<input class="input tab_infant" type="number" name="infant" id="infant">
+
+                </div>
+
+                <button class="btn tab_button" type="submit">Search Flights</button>
+
+            </form>
+        </div>
+
 
 </div>
 
